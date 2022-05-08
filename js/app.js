@@ -157,5 +157,6 @@ const loadPosts = async () =>{
   posts = await data.json();
   showPosts(posts);
 }
+loadPosts();
 
 
